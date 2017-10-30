@@ -1,8 +1,14 @@
 {
   "name": "yarn-init",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "repository": "https://github.com/sudo-suhas/yarn-init.git",
   "author": "Suhas Karanth <sudo.suhas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^9.1.0"
+  }
 }

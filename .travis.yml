@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - '8'
+
+branches:
+  only:
+    - master
+
+cache: yarn
+
+script: echo "Do nothing"
+
+after_success:
+  - yarn run semantic-release
